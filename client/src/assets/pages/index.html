@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You tube</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <div class="wrapper">
+                <div class="row">
+                    <div class="logo row">
+                         <a href="#" class="menu"><img src="./Menu.svg" alt=""></a>
+                         <a href="#"><img src="./logo.svg" alt=""></a>
+                    </div>
+                    <div class="search">
+                        <form class="form" id="formSearch">
+                            <input class="search-input" id="searchInput" type="search" placeholder="Search" autocomplete="off">
+                            <button class="search-btn" type="submit"><img class="search-icon" src="./icons/search.png" alt=""></button>
+                        </form>
+                        <div id="keyup">
+
+                        </div>
+                    </div>
+
+                    <div class="icons">
+                        <div class="row">
+                            <a href="#" class="head-link"><img src="./icons/video.svg" alt=""></a>
+                            <a href="#" class="head-link"><img src="./icons/phone.svg" alt=""></a>
+                            <a href="#" class="head-link"><img src="./icons/subs.svg" alt=""></a>
+                            <span id="head-link-user"></span>
+                            <span id="login" ></span>
+                        </div>
+                        <div class="account-menu">
+                            <a class="sidebar-link account-menu-link" href="/setting"><img src="./icons/settings.png" alt=""> Setting my account</a>
+                            <a class="sidebar-link account-menu-link " id="upload" href="/upload"><img src="./icons/upload.png" alt=""> Upload video</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="main-inner">
+            <div>
+                <div class="row-row">
+                    <div class="sidebar">
+                        <a href="/" class="sidebar-link active"><img src="./icons/home.png" alt=""> Home</a>
+                        <a href="/myVideo" class="sidebar-link"><img src="./icons/video-camera.png" alt=""> My videos</a>
+                        <hr>
+<div class="sub">
+    <h3 class="sidebar-link subs">Subscriptions</h3>
+    <!-- <a href="#" class="sidebar-link"><img class="chanel-img" src="./icons/latter.svg" alt=""> Chanel name</a>
+    <a href="#" class="sidebar-link"><img class="chanel-img" src="./icons/latter.svg" alt=""> Chanel name</a>
+    <a href="#" class="sidebar-link"><img class="chanel-img" src="./icons/latter.svg" alt=""> Chanel name</a>
+    <a href="#" class="sidebar-link"><img class="chanel-img" src="./icons/latter.svg" alt=""> Chanel name</a> -->
+</div>
+                    </div>
+                    <div class="content">
+                         <div class="row row-wrap">
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <a href="/api?videoId=1">Api</a>
+    <script src="./request.js" ></script>
+    <script src="./index.js"></script>
+</body>
+</html>

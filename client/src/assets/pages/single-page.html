@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <div class="wrapper">
+                <div class="row">
+                    <div class="logo row">
+                         <a href="#" class="menu"><img src="/Menu.svg" alt=""></a>
+                         <a href="/"><img src="/logo.svg" alt=""></a>
+                    </div>
+                    <div class="search">
+                        <form class="form">
+                            <input class="search-input" type="search" placeholder="Search">
+                            <button class="search-btn" type="button"><img class="search-icon" src="/icons/search.png" alt=""></button>
+                        </form>
+                    </div>
+
+                    <div class="icons">
+                        <div class="row">
+                            <a href="#" class="head-link"><img src="/icons/video.svg" alt=""></a>
+                            <a href="#" class="head-link"><img src="/icons/phone.svg" alt=""></a>
+                            <a href="#" class="head-link"><img src="/icons/subs.svg" alt=""></a>
+                            <span id="head-link-user"></span>
+                            <span id="login" ></span>
+
+                        </div>
+                        <div class="account-menu">
+                            <a class="sidebar-link account-menu-link" href="#"><img src="/icons/settings.png" alt=""> Setting my account</a>
+                            <a class="sidebar-link account-menu-link" href="#"><img src="/icons/upload.png" alt=""> Upload video</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="main-inner">
+            <div class="wrapper">
+                <div class="row-row">
+                     <div class="single-left">
+                        <div class="single-video">
+                            <video controls class="video-video" src="" alt="">
+                            <h2 class="single-video-name">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                            <div class="row">
+                               <div class="row-row">
+                                <p>single video views </p>
+                                <p> single video date</p>
+                               </div>
+                               <div class="row-row">
+                                   <button class="row like"><img src="/icons/like.svg" alt="">123k</button>
+                                   <button class="row like"><img src="/icons/dislike.svg" alt="">35k</button>
+                                   <button class="subscription">Subscribe</button>
+                               </div>
+                            </div>
+                        </div>
+                        <div class="comment-box">
+                            <div class="my-comment">
+                                <div class="my-photo">
+                                    <img id="userComment" src="" alt="">
+                                    <button id="like" class="liked">like</button>
+                                    <button id="dislike" class="disliked">dislike</button>
+                                    <div>
+                                        <button class=" add">follow qilish</button>
+                                    </div>
+                                </div>
+                                <form id="comment">
+                                    <input class="comment-input" type="text" id="title" placeholder="User name, your comment...">
+                                </form>
+                                <div class="all-comments">
+
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="single-right">
+
+                     </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <script src="./request.js" ></script>
+    <script src="./single.js"></script>
+</body>
+</html>
